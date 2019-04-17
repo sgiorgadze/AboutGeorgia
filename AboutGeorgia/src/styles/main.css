@@ -22,6 +22,7 @@ header {
     width: 100%;
     z-index: 6;
     position: fixed;
+   
 }
 .header-social-icon{
     width: 50px;

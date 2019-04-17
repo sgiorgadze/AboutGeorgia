@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="src/styles/main.css">
-    <link rel="stylesheet" href="src/styles/common/kitchen-page.css">
+    <link rel="stylesheet" href="src/styles/common/kerzi-konkretulad.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -18,9 +18,11 @@
         <header>
             <div id="header-top" class="header-top show">
                 <div class="container">
+                    <div class="row">
                     <div class="header-social-icon"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> </div>                 
                     <div class="header-social-icon"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a> </div>
                     <div class="header-social-icon"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> </div>
+                </div>
                 </div>
             </div>
           
@@ -102,102 +104,46 @@
         </header>
 
         <div class="slider">
-         <img src="./assets/img/food/foni.jpg" alt="">   
+      <!--   <img src="./assets/img/food/foni.jp" alt="">   --></div>
                 
-    </div>
     
-     <div class="filter">
-         <div class="row">
-             <div class="col-xl col-lg-6">
-                 <form>
-                        <h3>აირჩიეთ რეგიონი</h3>
-                        <select class="custom-select" id="inputGroupSelect01">
-                           <option selected>რეგიონი ან ქალაქი..</option>
-                           <option value="1">იმერეთი</option>
-                           <option value="2">აჭარა</option>
-                         </select>
-                 </form>
-             </div>
-             <div class="col-xl col-lg-6">
-                    <form>
-                            <h3>კატეგორიის მიხედვით ძებნა</h3>
-                            <select class="custom-select" id="inputGroupSelect01">
-                               <option selected>აირჩიეთ კატეგორია</option>
-                               <option value="1">ცივი კერძები</option>
-                               <option value="2">ცხელი კერძები</option>
-                             </select>
-                     </form>
-             </div>
-             <div class="col-xl col-lg-6">
-                    <form>
-                            <h3>აირჩიეთ დასახელება</h3>
-                          
-                            <select class="custom-select" id="inputGroupSelect01">
-                               <option selected>დასახელება ..</option>
-                               <option value="1">ხაჭაპური</option>
-                               <option value="2">ხინკალი</option>
-                             </select>
-                     </form>
-             </div>
-             <div class="col-xl col-lg-6">
-                    <button type="button" class="btn btn-outline-danger" onclick="">ძებნა
-                            <i class="fas fa-search"></i>
-                    </button>
-             </div>
-         </div>
 
-     </div>
-     <main>
+   <div class="container">
+        <main>
+       <div class="row">
+         <div class="col-lg-4">
+             <div class="image-container"><img src="./assets/img/food/ბორანო.PNG" alt="">
+                
+            </div>
+            <div class="region">
+            <i class="fas fa-map-marker-alt kitchen-icon"></i><p>აჭარა</p></div>
+             
+             
          
-      <section>
-          <div class="row">
-          <div class="col-xl col-lg-4"><article>
-              <div class="image-container"><a href="kerzi-konkretulad.html"><img src="./assets/img/food/ბორანო.PNG" alt=""></a></div>
-              <h3><a href="#">ბორანო</a></h3>
-              <i class="fas fa-map-marker-alt"></i><p>აჭარა</p>
-          </article></div>
+        </div>
+        <div class="col-lg-8">
+            <div class="description"> 
+                <h1>ბორანო</h1>
+                <p>ბორანო ტრადიციული აჭარული სამზარეულოს შემადგენელი კერძია. ტრადიციული ფორმით, 
+                    ბორანო – ესაა იაღში ჩალბობილი ყველი. ის მაღალი კალორიულობით ხასიათდება და ზუსტად
+                     შეესაბამება აჭარელი კაცის ტრადიციული ცხოვრების წესს, რომელიც მუდმივ შრომასა და დიდ 
+                     ფიზიკურ დატვირთვას მოითხოვს. მომზადებისას გამოიყენება იაღი, აჭარული მარილიანი კარაქი.</p>
+            </div>    
+     
 
-          <div class="col-xl col-lg-4"><article>
-                <div class="image-container"><img src="./assets/img/food/xinkali2.jpg" alt=""></div>                
-          </article></div>
+        </div>
+        
 
-          <div class="col-xl col-lg-4"><article>
-                <div class="image-container"><img src="./assets/img/food/acharuli.png" alt=""></div>
-          </article></div>
-          <div class="col-xl col-lg-4"><article>
-                <div class="image-container"><img src="./assets/img/food/lobiojpg.jpg" alt=""></div>
-          </article></div>
-          
-          <div class="col-xl col-lg-4"> <article>
-                <div class="image-container"><a href="#"><img src="./assets/img/food/chakafuli.jpg" alt=""></a></div>
-                <h3><a href="#">ჩაქაფული</a></h3>
-                <i class="fas fa-map-marker-alt"></i><p>კახეთი</p>
-          </article></div>
-          <div class="col-xl col-lg-4"> <article>
-                <div class="image-container"><a href="#"><img src="./assets/img/food/sacivi.jpg" alt=""></a></div>
-                <h3><a href="#">საცივი</a></h3>
-                <i class="fas fa-map-marker-alt"></i><p>იმერეთი</p>
-          </article></div>
-          <div class="col-xl col-lg-4"><article>
-                <div class="image-container"><a href="#"><img src="./assets/img/food/nigvziani badrijani.jpg" alt=""></a></div>
-                <h3><a href="#">ლობიანი</a></h3>
-                <i class="fas fa-map-marker-alt"></i><p>იმერეთი</p>
-          </article></div>
-          <div class="col-xl col-lg-4"> <article>
-                <div class="image-container"><a href="#"><img src="./assets/img/food/kubdari.jpg" alt=""></a></div>
-                <h3><a href="#">კუბდარი</a></h3>
-                <i class="fas fa-map-marker-alt"></i><p>სვანეთი</p>
-          </article></div>
-          
-          
-          </div>
-      </section>
-       
-     <div class="clear-box"></div>        
-    </main>
+
+       </div>
+       <div class="clear-box"></div>
+       </main>
+   </div>
+
+     
 
     
-    
+   
     <div class="weather-line">
         <div class="container">
             <div class="row">
