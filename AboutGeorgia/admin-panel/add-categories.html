@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>admin-panel</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="src-admin/main-admin.css">
+    <link rel="stylesheet" href="src-admin/add-categories.css">
+</head>
+
+<body>
+    
+        <header>
+            <img src="../assets/img/global/logo.png">
+            <div class="clear-box"></div>
+        </header>
+
+      <main>
+                <aside>
+                        <div class="container">
+                                <div id="accordion">
+                                  <div class="card">
+                                    <div class="card-header">
+                                      <a class="card-link" data-toggle="collapse" href="#">
+                                       მთავარი
+                                      </a>
+                                    </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="card">
+                                    <div class="card-header">
+                                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                     კატეგორიები
+                                    </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+                                      <div class="card-body">
+                                            <ul class="nav flex-column">
+                                                    
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">სამზარეულო</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                      <a class="nav-link" href="#">ღირსშესანიშნაობები</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                            <a class="nav-link" href="#">ახალი კატეგორიის დამატება</a>
+                                                          </li>
+                                                   
+                                                  </ul>
+                                    </div>
+                                  </div>
+                                  <div class="card">
+                                    <div class="card-header">
+                                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                        Collapsible Group Item #3
+                                      </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                      <!--<div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                      </div>-->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                                  
+                                <div class="clear-box"></div>
+                </aside>     
+         <section>
+            <h1>ახალი პროდუქტის დამატება</h1>
+            
+         <form>
+           <h3>აირჩიეთ კატეგორია</h3>
+           <select class="custom-select" id="inputGroupSelect01">
+              <option selected>აირჩიეთ...</option>
+              <option value="1">ცივი კერძი</option>
+              <option value="2">ცხელი კერძი</option>
+            </select>
+            <h3>აირჩიეთ რეგიონი</h3>
+                          <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>აირჩიეთ...</option>
+                            <option value="1">იმერეთი</option>
+                            <option value="2">სამეგრელო</option>
+                          </select>
+                          <div class="container">
+                              <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" data-toggle="tab" href="#menu1">ქართული</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" data-toggle="tab" href="#menu2">ინგლისური</a>
+                                </li>
+                              </ul>
+
+                              <div class="tab-content">
+                            
+                                <div id="menu1" class="container tab-pane active"><br>
+                                  <h3>შეიყვანეთ კერძის სახელი</h3>
+                                  <input type="text" class="form-control">
+                                     <textarea name="" id="" cols="30" rows="10" placeholder="აღწერა"></textarea>
+                                </div>
+                            
+                            
+                                <div id="menu2" class="container tab-pane fade"><br>
+                                  <h3>Enter the name of the dish</h3>
+                                  <input type="text" class="form-control">
+                                           <textarea name="" id="" cols="30" rows="10" placeholder="description"></textarea><br>
+                                </div>
+                            
+                                <label>ატვირთე ფოტო</label><br>
+                                <input type="file" name="img"><br><br>
+                                        <input type="submit" name="" value="რედაქტირება">
+                            
+                            
+                              </div>
+                            </div>
+
+         </form>
+          
+        
+                   
+               
+        </section>   
+           <div class="clear-box"></div>
+        </main>
+                   
+        
+
+           
+            
+        
+
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

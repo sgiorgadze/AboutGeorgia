@@ -1,0 +1,20 @@
+h1{
+    font-family: nino-mtavruli;
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+h3{
+    font-family: nino-mtavruli;
+    font-size: 16px;
+
+}
+.custom-select{
+    width: 400px !important;
+    margin-bottom: 30px;
+}
+.form-control {
+    width: 400px !important;
+    margin-bottom: 30px;
+}
