@@ -8,7 +8,7 @@
     <title>admin-panel</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="src-admin/main-admin.css">
-    <link rel="stylesheet" href="src-admin/kitchen.css">
+    <link rel="stylesheet" href="src-admin/sights.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
@@ -26,7 +26,7 @@
                                   <div class="card">
                                     <div class="card-header">
                                       <a class="card-link" data-toggle="collapse" href="home-page.html">
-                                       <a href="home-page.html"> მთავარი</a>
+                                        <a href="home-page.html"> მთავარი</a>
                                       </a>
                                     </div>
                                     </div>
@@ -73,7 +73,7 @@
                                 <div class="clear-box"></div>
                 </aside>     
          <section>
-             <div class="add-new text-center"><p><a href="#">ცივი კერძები</a> </p>
+             <div class="add-new text-center"><p><a href="#">ზღვის კურორტები</a> </p>
                 <a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
                 <!-- Button trigger modal -->
 <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
@@ -101,34 +101,40 @@
   </div>
 </div></td>
     </tr></div>
-             <div class="add-new text-center"><p><a href="#">ცხელი კერძები</a> </p>
-                <a href="#"> <i class="fas fa-pencil-alt"style="margin-right:10px"></i></a>
-                <!-- Button trigger modal -->
+    <div class="add-new text-center"><p><a href="#">მთის კურორტები</a> </p>
+      <a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+      <!-- Button trigger modal -->
 <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
-  <a href="#"> <i class="fas fa-trash-alt"></i></a>
+<a href="#"> <i class="fas fa-trash-alt"></i></a>
 </button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       ნამდვილად გსურთ წაშალოთ ჩანაწერი?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
-        <button type="button" class="btn  btn-secondary">არა</button>
-      </div>
-    </div>
-  </div>
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">წაშლა</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+ნამდვილად გსურთ წაშალოთ ჩანაწერი?
+</div>
+<div class="modal-footer">
+<button type="button" class="btn  btn-danger" data-dismiss="modal">დიახ</button>
+<button type="button" class="btn  btn-secondary">არა</button>
+</div>
+</div>
+</div>
 </div></td>
-    </tr></div>
+</tr></div>
+             <div class="add-new text-center"><p><a href="#">ეკლესია მონასტრები</a> </p>
+                <a href="#"> <i class="fas fa-pencil-alt"style="margin-right:10px"></i></a>
+                <a href="#">   <i class="fas fa-trash-alt"></i></a></div>
+                <div class="add-new text-center"><p><a href="#">ნაკრძალები</a> </p>
+                  <a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+                  <a href="#"> <i class="fas fa-trash-alt"></i></a></div>  
              <div class="add-new text-center"><p>კატეგორიის დამატება</p>
                 <a href="#"> <i class="fas fa-plus"></i></a>
              </div>
@@ -136,7 +142,7 @@
           <!-- tool box-->
           <div class="tool-box">
                 <nav class="navbar navbar-light ">
-                    <a href="add-kitchen-categories.html"> <i class="fas fa-plus icon-size"  style="margin:10px;"></i></a>
+                    <a href="add-sights-categories.html"> <i class="fas fa-plus icon-size"  style="margin:10px;"></i></a>
                     <form class="form-inline">
                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -157,11 +163,10 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>ცივი კერძები</td>
-      <td>ხაჭაპური</td>
-      <td><a href="edit-page.html"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
-        </div>
-      <!-- Button trigger modal -->
+      <td>კურორტები</td>
+      <td>ბაკურიანი</td>
+      <td><a href="edit-sights-page.html"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+        <!-- Button trigger modal -->
 <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
   <a href="#"> <i class="fas fa-trash-alt"></i></a>
 </button>
@@ -186,12 +191,13 @@
     </div>
   </div>
 </div></td>
-    </tr><!--modal end-->
+    </tr></div></td>
+    </tr>
     <tr>
       <th scope="row">2</th>
-      <td>ცხელი კერძები</td>
-      <td>ხინკალი</td>
-      <td><a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+      <td>ნაკრძალები</td>
+      <td>ლაგოდეხის ნაკრძალი</td>
+      <td><a href="edit-sights-page.html"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
         <a href="#"> <i class="fas fa-trash-alt"></i></a></div></td>
     </tr>
     

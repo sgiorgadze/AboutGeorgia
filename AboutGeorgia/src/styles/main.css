@@ -22,7 +22,7 @@ header {
     width: 100%;
     z-index: 6;
     position: fixed;
-   
+      
 }
 .header-social-icon{
     width: 50px;
@@ -47,7 +47,7 @@ header {
     width: 100%;
 }
 
-.show {
+.show1 {
     height: 38px;
     transition: .3s;
 }
@@ -55,9 +55,11 @@ header {
 .darken {
     background-color: rgba(139, 28, 64, 1);
 }
+
 .navbar-brand img{
     height: 70px;    
 }
+
 .navbar {
     padding: 0px !important;
 }
