@@ -33,4 +33,7 @@
 section {
     color: inherit;
 }
+.btn:focus{
+    box-shadow: none !important;
+} /*washlis gilakis borderebi/*
 

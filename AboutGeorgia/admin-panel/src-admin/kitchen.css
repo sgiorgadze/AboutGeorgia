@@ -31,5 +31,8 @@
     width: 730px !important;
     text-align: center;
 }
+.btn:focus{
+    box-shadow: none !important;
+}
 
 
