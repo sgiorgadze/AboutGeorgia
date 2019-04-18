@@ -8,7 +8,8 @@
     <title>admin-panel</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="src-admin/main-admin.css">
-    <link rel="stylesheet" href="src-admin/add-categories.css">
+    <link rel="stylesheet" href="src-admin/sights.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
                                                       <a class="nav-link" href="sights.html">ღირსშესანიშნაობები</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                            <a class="nav-link" href="#">ახალი კატეგორიის დამატება</a>
+                                                            <a class="nav-link" href="#">კატეგორიის დამატება</a>
                                                           </li>
                                                    
                                                   </ul>
@@ -72,60 +73,67 @@
                                 <div class="clear-box"></div>
                 </aside>     
          <section>
-            <h1>ახალი პროდუქტის დამატება</h1>
-            
-         <form>
-           <h3>აირჩიეთ კატეგორია</h3>
-           <select class="custom-select" id="inputGroupSelect01">
-              <option selected>აირჩიეთ...</option>
-              <option value="1">ცივი კერძი</option>
-              <option value="2">ცხელი კერძი</option>
-            </select>
-            <h3>აირჩიეთ რეგიონი</h3>
-                          <select class="custom-select" id="inputGroupSelect01">
-                            <option selected>აირჩიეთ...</option>
-                            <option value="1">იმერეთი</option>
-                            <option value="2">სამეგრელო</option>
-                          </select>
-                          <div class="container">
-                              <ul class="nav nav-tabs" role="tablist">
-                                <li class="nav-item">
-                                  <a class="nav-link active" data-toggle="tab" href="#menu1">ქართული</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" data-toggle="tab" href="#menu2">ინგლისური</a>
-                                </li>
-                              </ul>
+             <div class="add-new text-center"><p><a href="#">კურორტები</a> </p>
+                <a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+                <a href="#"> <i class="fas fa-trash-alt"></i></a></div>
+             <div class="add-new text-center"><p><a href="#">ეკლესია მონასტრები</a> </p>
+                <a href="#"> <i class="fas fa-pencil-alt"style="margin-right:10px"></i></a>
+                <a href="#">   <i class="fas fa-trash-alt"></i></a></div>
+                <div class="add-new text-center"><p><a href="#">ნაკრძალები</a> </p>
+                  <a href="#"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+                  <a href="#"> <i class="fas fa-trash-alt"></i></a></div>  
+             <div class="add-new text-center"><p>კატეგორიის დამატება</p>
+                <a href="#"> <i class="fas fa-plus"></i></a>
+             </div>
 
-                              <div class="tab-content">
-                            
-                                <div id="menu1" class="container tab-pane active"><br>
-                                  <h3>შეიყვანეთ კერძის სახელი</h3>
-                                  <input type="text" class="form-control">
-                                     <textarea name="" id="" cols="30" rows="10" placeholder="აღწერა"></textarea>
-                                </div>
-                            
-                            
-                                <div id="menu2" class="container tab-pane fade"><br>
-                                  <h3>Enter the name of the dish</h3>
-                                  <input type="text" class="form-control">
-                                           <textarea name="" id="" cols="30" rows="10" placeholder="description"></textarea><br>
-                                </div>
-                            
-                                <label>ატვირთე ფოტო</label><br>
-                                <input type="file" name="img"><br><br>
-                                        <input type="submit" name="" value="დამატება">
-                            
-                            
-                              </div>
-                            </div>
+          <!-- tool box-->
+          <div class="tool-box">
+                <nav class="navbar navbar-light ">
+                    <a href="add-sights-categories.html"> <i class="fas fa-plus icon-size"  style="margin:10px;"></i></a>
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </nav>
+                    
+              
+           <div class="information">
+             <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">კატეგორია</th>
+      <th scope="col">დასახელება</th>
+      <th scope="col">რედაქტირება/წაშლა</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>კურორტები</td>
+      <td>ბაკურიანი</td>
+      <td><a href="edit-sights-page.html"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+        <a href="#"> <i class="fas fa-trash-alt"></i></a></div></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>ნაკრძალები</td>
+      <td>ლაგოდეხის ნაკრძალი</td>
+      <td><a href="edit-sights-page.html"> <i class="fas fa-pencil-alt" style="margin-right:10px;"></i></a>
+        <a href="#"> <i class="fas fa-trash-alt"></i></a></div></td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+</div>
 
-         </form>
+         </section>      
           
         
                    
                
-        </section>   
+           </div>
            <div class="clear-box"></div>
         </main>
                    
