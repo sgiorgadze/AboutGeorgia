@@ -28,14 +28,11 @@ h3 {
 .slider img {
     width: 100%;
     max-height: 600px;
-
-
 }
 
 aside {
     float: left;
 }
-
 
 .filter {
     padding: 20px;
@@ -85,7 +82,6 @@ input::-webkit-calendar-picker-indicator {
 nav.main-menu .expanded {
     width: 215px;
     overflow: visible;
-
 }
 
 .main-menu {
@@ -138,9 +134,6 @@ nav.main-menu .expanded {
 
 }
 
-
-
-
 .main-menu .nav-icon {
     position: relative;
     display: table-cell;
@@ -149,15 +142,12 @@ nav.main-menu .expanded {
     text-align: center;
     vertical-align: middle;
     font-size: 18px;
-
 }
 
 .main-menu ul .logout {
     position: absolute;
     bottom: 0;
     left: 0;
-
-
 }
 
 .no-touch .scrollable.hover {
@@ -199,9 +189,8 @@ nav .main-menu li:active a;
     background: yellow,
 }
 
-
 main {
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
 }
 
 main section article {
@@ -211,7 +200,6 @@ main section article {
     margin-bottom: 20px;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, .09);
     position: relative;
-
 }
 
 main section article:hover img {
@@ -227,9 +215,7 @@ main section article:hover img {
 .image-container img {
     width: 100%;
     height: 100%;
-
     transition: 0.75s;
-
 }
 
 main section article i {
@@ -241,7 +227,6 @@ main section article i {
 main section article p {
     font-family: nino-mtavruli;
     font-size: 14px;
-
 
 }
 
@@ -259,7 +244,6 @@ main section article p {
 button {
     margin-bottom: 10px;
 }
-
 
 footer {
     background-color: rgba(0, 0, 0, 0.4);
@@ -336,11 +320,13 @@ footer img {
 
     .hidden-aside {
         display: block;
+        text-align: center;
     }
 
     .area {
         display: none;
     }
+
 
 }
 
