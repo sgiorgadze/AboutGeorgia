@@ -7,6 +7,7 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
 /*.container{
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -17,37 +18,44 @@
     border: 1px solid white;
     float: right;
 }
+
 header {
     width: 100%;
     z-index: 6;
-    position: fixed;      
+    position: fixed;
+
 }
+
 header a {
     color: white;
     font-family: nino-mtavruli;
 }
+
 a {
-    color:inherit;
+    color: inherit;
 }
- a:hover{
+
+a:hover {
     color: orange;
     text-decoration: none !important;
 }
+
 .nav-link {
     color: white !important;
 }
 
 
-.header-social-icon{
-    width: 50px;    
-    text-align: center;    
-    padding-top: 5px;    
+.header-social-icon {
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
     margin-right: 10px;
     float: right;
     /* height: 38px;
     background:#f9a0a052;  
     border-radius: 10px; */
-   }
+}
+
 .header-top {
     height: 0px;
     background-color: rgba(139, 28, 64, 0.72);
@@ -57,7 +65,7 @@ a {
 .header-bottom {
     position: absolute;
     height: 90px;
-    background-color: rgba(0, 0, 0, 0.4);    
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
 }
 
@@ -70,15 +78,18 @@ a {
     background-color: rgba(139, 28, 64, 1);
 }
 
-.navbar-brand img{
-    height: 70px;    
-} 
+.navbar-brand img {
+    height: 70px;
+}
+
 .navbar-brand {
     margin-right: 5rem !important;
 }
+
 .navbar {
     height: 90px;
 }
+
 .navbar {
     padding: 0px !important;
 }
@@ -88,9 +99,10 @@ a {
     width: 46px;
     height: 4px;
     border-radius: 1px;
-    background-color:white;
-     margin-bottom: 6px;
+    background-color: white;
+    margin-bottom: 6px;
 }
+
 .navbar-toggler {
     border: none !important;
 }
@@ -98,6 +110,7 @@ a {
 button:focus {
     outline: none;
 }
+
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -105,72 +118,82 @@ button:focus {
 
 
 .form-control {
-    background: none !important;     
+    background: none !important;
 }
 
-.btn-outline-success{
-    border-color:#ced4da !important;
+.btn-outline-success {
+    border-color: #ced4da !important;
     color: #ced4da !important;
 }
+
 .btn-outline-success:hover {
     background: #b97070 !important;
-  
+
 }
-.icon-bar {  
-        display: block;
-        width: 30px;
-        height: 2px;
-        border-radius: 1px;
-        background-color:#ced4da;
-        margin-top: 4px;
-        margin-bottom: 2px;
-   
+
+.icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ced4da;
+    margin-top: 4px;
+    margin-bottom: 2px;
+
 }
+
 footer {
-    background-color: rgba(0, 0, 0, 0.4);  
-   /* background: rgba(139, 28, 64, 1);*/
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background: rgba(139, 28, 64, 1);*/
 }
 
 .weather {
     height: 40px;
     border-top-left-radius: 20px;
-    border-top-right-radius:20px;
+    border-top-right-radius: 20px;
     background: rgba(139, 28, 64, 1);
     padding-top: 10px;
-  
+
 }
+
 .weather p {
     text-align: center;
     font-family: nino-mtavruli;
     margin-bottom: 7px;
- }
- .weather a:hover >.weather-widget{
+}
+
+.weather a:hover>.weather-widget {
     text-decoration: none;
     transition: all 0.4s;
-   display: block;
-   }
-  
+    display: block;
+}
+
 footer {
     padding-top: 20px;
 }
+
 footer img {
     height: 70px;
     margin-bottom: 20px;
 }
-.social-cirkle{
+
+.social-cirkle {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    border:1px solid white;
+    border: 1px solid white;
 }
-.social-icon{
+
+.social-icon {
     color: rgba(139, 28, 64, 1);
     padding: 16px;
     font-size: 20px;
 }
-.weather-widget{
-    display: none;}
-  
+
+.weather-widget {
+    display: none;
+}
+
 
 
 
@@ -187,9 +210,7 @@ footer img {
     src: url('../../assets/fonts/bpg_nino_mtavruli_bold.ttf');
 }
 
-@media (min-width: 576px) {
-    
-}
+@media (min-width: 576px) {}
 
 @media (max-width: 768px) {
     .navbar-collapse {
@@ -197,16 +218,17 @@ footer img {
         margin-top: 10px;
         padding-left: 10pd;
     }
-    
-   
-  
+
+
+
 }
 
 @media (min-width: 992px) {
     .nav-link {
         padding-right: 0.5rem;
-        padding-left: 0.5rem;}
-    
+        padding-left: 0.5rem;
+    }
+
 }
 
 
@@ -215,8 +237,4 @@ footer img {
 
 
 
-@media (min-width: 1200px) {
-    
- 
-}
-
+@media (min-width: 1200px) {}
