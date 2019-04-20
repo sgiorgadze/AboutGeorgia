@@ -26,8 +26,12 @@ header a {
     color: white;
     font-family: nino-mtavruli;
 }
+a {
+    color:inherit;
+}
  a:hover{
     color: orange;
+    text-decoration: none !important;
 }
 .nav-link {
     color: white !important;
@@ -93,6 +97,10 @@ header a {
 
 button:focus {
     outline: none;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
 
@@ -186,15 +194,22 @@ footer img {
 @media (max-width: 768px) {
     .navbar-collapse {
         background: rgba(139, 28, 64, 1);
+        margin-top: 10px;
+        padding-left: 10pd;
     }
     
    
   
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
+    .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;}
     
 }
+
+
 
 
 
