@@ -230,6 +230,10 @@ main section article:hover img {
 
 }
 
+
+
+
+
 main section article i {
     color: orange;
     float: left;
@@ -338,6 +342,14 @@ footer img {
 
     .area {
         display: none;
+    }
+
+    article {
+        height: 275px !important;
+    }
+
+    .image-container {
+        height: 220px;
     }
 
 

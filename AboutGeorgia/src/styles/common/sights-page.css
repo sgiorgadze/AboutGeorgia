@@ -327,6 +327,13 @@ footer img {
         display: none;
     }
 
+    article {
+        height: 275px !important;
+    }
+
+    .image-container {
+        height: 220px;
+    }
 
 }
 

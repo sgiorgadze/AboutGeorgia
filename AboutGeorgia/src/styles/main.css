@@ -8,16 +8,6 @@
     padding-right: 0px !important;
 }
 
-/*.container{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}*/
-.language {
-    width: 70px;
-    height: 60px;
-    border: 1px solid white;
-    float: right;
-}
 
 header {
     width: 100%;
@@ -43,42 +33,15 @@ a:hover {
 .nav-link {
     color: white !important;
 
-    margin-top: 145px;
-    margin-bottom: 20px;
-
 }
 
-.nav-link:hover>.ra {
-    background: pink;
+.nav-link:hover {
+    color: orange !important;
 }
 
-/* .nav-link ul {
-    margin-bottom: -100px;
-    margin-top: 16px;
-    padding: 0px;
-} */
-
-nav ul li {
-    width: 172px;
-    float: left;
-    margin-top: 10px;
+.nav-item {
+    margin-left: 60px;
 }
-
-ul {
-    float: left;
-    list-style-type: none;
-    padding: 0px !important;
-
-}
-
-.nav-link:hover>.ra {
-    background: pink;
-}
-
-
-
-
-
 
 .header-social-icon {
     width: 50px;
@@ -117,17 +80,6 @@ ul {
     height: 70px;
 }
 
-.navbar-brand {
-    margin-right: 3rem !important;
-}
-
-.navbar {
-    height: 90px;
-}
-
-.navbar {
-    padding: 0px !important;
-}
 
 .icon-bar2 {
     display: block;
@@ -138,19 +90,9 @@ ul {
     margin-bottom: 6px;
 }
 
-.navbar-toggler {
-    border: none !important;
-}
-
 button:focus {
     outline: none;
 }
-
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-}
-
 
 .form-control {
     background: none !important;
@@ -231,10 +173,6 @@ footer img {
 
 
 
-
-
-
-
 @font-face {
     font-family: beka;
     src: url("../../assets/fonts/beka.ttf");
@@ -248,28 +186,33 @@ footer img {
 @media (min-width: 576px) {}
 
 @media (max-width: 768px) {
+    .nav-item {
+        margin: 0px !important;
+    }
+
     .navbar-collapse {
-        background: rgba(139, 28, 64, 1);
-        margin-top: 10px;
-        padding-left: 10pd;
+        background: rgba(139, 28, 64, 0.72);
+
     }
 
-
-
-}
-
-@media (min-width: 992px) {
     .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
+        padding-left: 13px !important;
     }
 
 }
 
 
 
+@media (max-width: 1024px) {
+    .nav-item {
+        margin-left: 33px;
+
+    }
+
+    @media (min-width: 992px) {}
 
 
 
 
-@media (min-width: 1200px) {}
+
+    @media (min-width: 1200px) {}
