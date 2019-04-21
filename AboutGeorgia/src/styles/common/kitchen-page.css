@@ -109,7 +109,7 @@ nav.main-menu .expanded {
     position: relative;
     display: block;
     width: 250px;
-    margin-top: 30px;
+    margin-top: 43px;
 }
 
 .main-menu li a {
@@ -310,7 +310,8 @@ footer img {
     display: none;
 }
 
-@media (min-width: 576px) {}
+@media (max-width: 576px) {}
+
 
 @media (max-width: 768px) {
 
@@ -332,6 +333,7 @@ footer img {
 
     .hidden-aside {
         display: block;
+        text-align: center;
     }
 
     .area {
@@ -344,4 +346,4 @@ footer img {
 
 }
 
-@media (min-width: 992px) {}
+@media (max-width: 992px) {}

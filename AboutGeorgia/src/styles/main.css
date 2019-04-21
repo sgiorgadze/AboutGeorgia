@@ -71,6 +71,9 @@ ul {
 
 }
 
+.nav-link:hover>.ra {
+    background: pink;
+}
 
 
 
