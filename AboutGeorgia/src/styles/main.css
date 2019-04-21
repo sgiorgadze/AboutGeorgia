@@ -42,7 +42,39 @@ a:hover {
 
 .nav-link {
     color: white !important;
+
+    margin-top: 145px;
+    margin-bottom: 20px;
+
 }
+
+.nav-link:hover>.ra {
+    background: pink;
+}
+
+/* .nav-link ul {
+    margin-bottom: -100px;
+    margin-top: 16px;
+    padding: 0px;
+} */
+
+nav ul li {
+    width: 172px;
+    float: left;
+    margin-top: 10px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    padding: 0px !important;
+
+}
+
+
+
+
+
 
 
 .header-social-icon {
@@ -83,7 +115,7 @@ a:hover {
 }
 
 .navbar-brand {
-    margin-right: 5rem !important;
+    margin-right: 3rem !important;
 }
 
 .navbar {
