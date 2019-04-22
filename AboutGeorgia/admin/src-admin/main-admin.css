@@ -4,45 +4,103 @@
 }
 
 
-.container{
+.container {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
 
- header {
-     width: 1140px;
-    background-color: rgba(139, 28, 64, 0.72);
-    padding: 20px;
-    margin: 0 auto;
+header {
+    width: 1140px;
+    height: 100px;
+    /* background: #252222; */
 
+    padding-top: 15px;
+    background-image: url(../img-admin/foni.jpg);
 }
+
 header img {
     height: 70px;
 }
-.nav-link {
-    padding: 1.2rem 1rem;
-    border-bottom: 1px solid #8080802e;
+
+* {
+    margin: 0px auto;
+    padding: 0;
 }
-.nav a{
-    color: rgba(139, 28, 64, 1);
-    font-weight: 450;
+
+/*damalva gamochena*/
+#saidebar {
+    position: fixed;
+    width: 16%;
+    height: 100%;
+    left: -16%;
+    background-image: url(../img-admin/foni.jpg);
+    top: 101px;
 }
-.nav a:hover{
-    font-weight: 800;
+
+#saidebar li {
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+
 }
+
+a {
+    display: block;
+    color: white !important;
+    font-family: nino-mtavruli;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#saidebar ul li:hover {
+    background: green;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 110%;
+
+    top: 15px;
+}
+
+.toggle-btn span {
+    display: block;
+    background-color: blue;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#saidebar.active {
+    left: 0px;
+}
+
+.toggle-btn.active {
+    left: 205px;
+
+}
+
 main {
     width: 1140px;
-     margin: 0 auto;}
-   
-    
+    height: 700px;
+
+}
+
+
 aside {
     width: 370px;
+    height: 700px;
     float: left;
 }
-section{
+
+section {
     width: 770px;
     float: left;
-padding-left: 30px;
+    padding-left: 30px;
 }
 
 
@@ -57,20 +115,10 @@ padding-left: 30px;
     src: url('../../assets/fonts/bpg_nino_mtavruli_bold.ttf');
 }
 
-@media (min-width: 576px) {
-    
-}
+@media (min-width: 576px) {}
 
-@media (min-width: 768px) {
-    
-   
-  
-}
+@media (min-width: 768px) {}
 
-@media (max-width: 992px) {
-       
-}
+@media (max-width: 992px) {}
 
-@media (min-width: 1200px) {
- 
-}
+@media (min-width: 1200px) {}
