@@ -26,7 +26,7 @@ h3 {
 
 .slider img {
     width: 100%;
-    max-height: 600px;
+    max-height: 512px;
 }
 
 
@@ -362,6 +362,11 @@ footer img {
         height: 220px;
     }
 
+    .slider img {
+        width: 100%;
+        max-height: 200px;
+    }
+}
 
 
 
@@ -369,3 +374,10 @@ footer img {
 }
 
 @media (max-width: 992px) {}
+
+@media (max-width: 1024px) {
+    .slider img {
+        width: 100%;
+        max-height: 350px;
+    }
+}
