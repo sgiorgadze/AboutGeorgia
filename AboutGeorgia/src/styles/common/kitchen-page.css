@@ -67,7 +67,7 @@ input::-webkit-calendar-picker-indicator {
 
 .fa-2x {
     font-size: 2em;
-    color: orange;
+    color: white;
 
 }
 
@@ -99,6 +99,7 @@ nav.main-menu .expanded {
     overflow: hidden;
     transition: width 0.5s linear;
     z-index: 1;
+    padding-top: 35px;
 }
 
 .main-menu>ul {
