@@ -41,7 +41,7 @@ a:hover {
     color: orange !important;
 }
 
-nav ul li:first-child {
+header nav ul li:first-child {
     margin-top: 7px;
     margin-right: 23px;
 
@@ -146,6 +146,7 @@ button:focus {
 .btn-secondary,
 .btn:focus {
     box-shadow: none !important;
+
 }
 
 .header-btn-new {
@@ -161,6 +162,12 @@ button:focus {
     margin-top: 4px;
     margin-bottom: 2px;
 
+}
+
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+    border-color: rgba(139, 28, 64, 0.72);
 }
 
 footer {

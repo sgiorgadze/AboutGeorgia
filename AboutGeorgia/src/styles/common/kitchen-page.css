@@ -99,7 +99,7 @@ nav.main-menu .expanded {
     overflow: hidden;
     transition: width 0.5s linear;
     z-index: 1;
-    padding-top: 35px;
+    padding-top: 10px;
 }
 
 .main-menu>ul {
@@ -175,11 +175,11 @@ a:focus {
     text-decoration: none;
 }
 
-nav {
+.area nav {
     user-select: none;
 }
 
-nav ul,
+.area nav ul,
 nav li {
     outline: 0;
     padding: 0;
@@ -263,6 +263,11 @@ button {
     margin-bottom: 10px;
 }
 
+.pagination {
+    justify-content: center;
+    margin-top: 30px;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.4);
     /* background: rgba(139, 28, 64, 1);*/
@@ -275,6 +280,10 @@ footer {
     background: rgba(139, 28, 64, 1);
     padding-top: 10px;
 
+}
+
+section>nav {
+    margin: 0 auto;
 }
 
 .weather p {

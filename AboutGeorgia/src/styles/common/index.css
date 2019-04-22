@@ -305,13 +305,28 @@
      display: none;
  }
 
- @media (max-width: 576px) {}
+ @media (max-width: 576px) {
+     .img-slider-container {
+         width: 100%;
+         max-height: 230px;
+     }
+ }
 
- @media (max-width: 768px) {}
+ @media (max-width: 768px) {
+     .img-slider-container {
+         width: 100%;
+         max-height: 350px;
+     }
+ }
 
 
 
- @media (max-width: 1024px) {}
+ @media (max-width: 1024px) {
+     .img-slider-container {
+         width: 100%;
+         max-height: 370px;
+     }
+ }
 
  @media (min-width: 992px) {}
 
