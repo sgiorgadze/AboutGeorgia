@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>admin-panel</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="src-admin/main-admin.css">
+  <script type="text/javascript">
+    function togglemenu() {
+      document.getElementById('saidebar').classList.toggle('active');
+      // var sidebarElement = document.getElementById('saidebar');
+      // var _classlist = sidebarElement.classList;
+      // _classlist.toggle('active');
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+
+    <img src="../assets/img/global/logo.png">
+
+
+
+  </header>
+
+  <main>
+    <aside>
+      <div id="saidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="#">მთავარი</a> </li>
+          <li><a href="#">კატეგორიები</a> </li>
+          <li> <a href="#">პარამეტრები</a> </li>
+        </ul>
+
+      </div>
+    </aside>
+
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

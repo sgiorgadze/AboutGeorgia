@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>admin-panel</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="../lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="src-admin/main-admin.css">
+  <link rel="stylesheet" href="src-admin/main-admin.css">
+  <script type="text/javascript">
+    function togglemenu() {
+      document.getElementById('saidebar').classList.toggle('active');
+      // var sidebarElement = document.getElementById('saidebar');
+      // var _classlist = sidebarElement.classList;
+      // _classlist.toggle('active');
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <img src="../assets/img/global/logo.png">
+    <div class="clear-box"></div>
+  </header>
+
+  <main>
+    <aside>
+      <div class="container">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="home-page.html">
+                <a href="home-page.html"> მთავარი</a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              კატეგორიები
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              <ul class="nav flex-column">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="kitchen-page.html">სამზარეულო</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sights.html">ღირსშესანიშნაობები</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ახალი კატეგორიის დამატება</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                Collapsible Group Item #3
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <!--<div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                      </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear-box"></div>
+    </aside>
+    <section>
+
+    </section>
+
+
+
+
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
