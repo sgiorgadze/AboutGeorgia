@@ -110,6 +110,7 @@
                                             <span class="sr-only">Toggle Dropdown</span>
                                         </button>
                                         <div class="dropdown-menu">
+                                        <!-- ????? -->
                                             <a class="dropdown-item" href="?page=sights-page">ეკლესია-მონასტრები</a>
                                             <a class="dropdown-item" href="?page=sights-page">მთის კურორტები</a>
                                             <a class=" dropdown-item" href="?page=sights-page">ზღვის კურორტები</a>
@@ -153,9 +154,6 @@ if (!isset($_GET['page']) || $_GET['page']=='home') {
 
 
 ?>
-
-
-
     <!-- End php logic -->
 
 
